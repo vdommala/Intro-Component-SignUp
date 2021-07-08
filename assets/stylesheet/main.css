@@ -359,7 +359,7 @@ fieldset {
   body {
     background: url("../../images/bg-intro-mobile.png"), var(--primary-bg-red);
   }
-  h5 {
+  h2 {
     max-width: 20ch;
   }
   main {

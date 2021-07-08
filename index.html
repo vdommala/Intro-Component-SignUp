@@ -29,7 +29,7 @@
   </head>
   <body>
     <main>
-      <article class="intro" role="contentinfo">
+      <article class="intro" role="banner">
         <h1 class="heading">Learn to code by watching others</h1>
         <p>
           See how experienced developers solve problems in real-time. Watching
@@ -39,7 +39,7 @@
       </article>
       <form action="#" method="post">
         <div id="formHeading" class="formHeading">
-          <h5 aria-describedby="formHeading">
+          <h2 aria-describedby="formHeading">
             <span class="text-bold">Try it free 7 days </span>then $20/mo.
             thereafter
           </h5>
@@ -53,10 +53,11 @@
               aria-required="true"
               placeholder="First Name"
               aria-placeholder="First Name"
+              role=""
               class="form-input-text"
             />
             <label class="visually-hidden" for="firstName">First Name</label>
-            <img class="hidden img-invalid" src="./images/icon-error.svg" />
+            <img class="hidden img-invalid" src="./images/icon-error.svg" alt="error icon"/>
             <span class="hidden invalid">First Name cannot be empty</span>
           </div>
 
@@ -72,7 +73,7 @@
               class="form-input-text"
             />
             <label for="lastName" class="visually-hidden">Last Name</label>
-            <img class="hidden img-invalid" src="./images/icon-error.svg" />
+            <img class="hidden img-invalid" src="./images/icon-error.svg" alt="error icon"/>
             <span class="hidden invalid">Last Name cannot be empty</span>
           </div>
 
@@ -88,7 +89,7 @@
               class="form-input-text"
             />
             <label for="userEmail" class="visually-hidden">Email</label>
-            <img class="hidden img-invalid" src="./images/icon-error.svg" />
+            <img class="hidden img-invalid" src="./images/icon-error.svg" alt="error icon"/>
             <span class="hidden invalid">Email cannot be empty</span>
           </div>
           <div>
@@ -99,11 +100,10 @@
               required
               aria-required="true"
               placeholder="Password"
-              aria-placeholder="Password"
               class="form-input-text"
             />
             <label for="password" class="visually-hidden">Password</label>
-            <img class="hidden img-invalid" src="./images/icon-error.svg" />
+            <img class="hidden img-invalid" src="./images/icon-error.svg" alt="error icon"/>
             <span class="hidden invalid">Password cannot be empty</span>
           </div>
 
