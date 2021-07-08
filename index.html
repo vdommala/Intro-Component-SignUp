@@ -29,7 +29,7 @@
   </head>
   <body>
     <main>
-      <article class="intro" role="banner">
+      <article class="intro">
         <h1 class="heading">Learn to code by watching others</h1>
         <p>
           See how experienced developers solve problems in real-time. Watching
@@ -45,7 +45,7 @@
           </h5>
         </div>
         <fieldset>
-          <div>
+          <div role="textbox">
             <input
               type="text"
               name="firstName"
@@ -53,7 +53,6 @@
               aria-required="true"
               placeholder="First Name"
               aria-placeholder="First Name"
-              role=""
               class="form-input-text"
             />
             <label class="visually-hidden" for="firstName">First Name</label>
@@ -61,7 +60,7 @@
             <span class="hidden invalid">First Name cannot be empty</span>
           </div>
 
-          <div>
+          <div role="textbox">
             <input
               type="text"
               name="lastName"
@@ -77,7 +76,7 @@
             <span class="hidden invalid">Last Name cannot be empty</span>
           </div>
 
-          <div>
+          <div role="textbox">
             <input
               type="email"
               name="userEmail"
@@ -92,7 +91,7 @@
             <img class="hidden img-invalid" src="./images/icon-error.svg" alt="error icon"/>
             <span class="hidden invalid">Email cannot be empty</span>
           </div>
-          <div>
+          <div role="textbox">
             <input
               type="password"
               name="password"
